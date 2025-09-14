@@ -1,5 +1,6 @@
-import React, { useMemo, useState } from "react";
+import { useMemo, useState } from "react";
 import Papa from "papaparse";
+
 
 // ===== Types =====
 export type Item = {
