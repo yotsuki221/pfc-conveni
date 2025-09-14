@@ -33,6 +33,8 @@ const defaultItems: Item[] = [
   { id: "7-7", name: "焼き鮭（塩）", chain: "7-Eleven", category: "主菜/たんぱく源", calories: 200, protein: 22, fat: 12, carbs: 0, price: 320 },
   { id: "7-8", name: "さばの塩焼", chain: "7-Eleven", category: "主菜/たんぱく源", calories: 300, protein: 20, fat: 22, carbs: 0, price: 380 },
   { id: "7-9", name: "玄米ごはんパック（150g）", chain: "7-Eleven", category: "主食", calories: 180, protein: 3, fat: 1, carbs: 38, price: 160 },
+  { id: "7-10", name: "たんぱく質が摂れるチキン＆チリ", chain: "7-Eleven", category: "主菜/たんぱく源", calories: 284, protein: 26.9, fat: 9.2, carbs: 25.3 },
+  { id: "7-11", name: "塩むすび",                   chain: "7-Eleven",   category: "主食",            calories: 173, protein: 2.6, fat: 0.9, carbs: 39.5 },
 
   { id: "f-1", name: "グリルチキン", chain: "FamilyMart", category: "主菜/たんぱく源", calories: 140, protein: 23, fat: 4, carbs: 1, price: 258 },
   { id: "f-2", name: "サラダチキン", chain: "FamilyMart", category: "主菜/たんぱく源", calories: 125, protein: 25, fat: 1, carbs: 0, price: 268 },
@@ -40,12 +42,15 @@ const defaultItems: Item[] = [
   { id: "f-4", name: "もち麦おにぎり", chain: "FamilyMart", category: "主食", calories: 200, protein: 6, fat: 2, carbs: 38, price: 160 },
   { id: "f-5", name: "プロテインヨーグルト", chain: "FamilyMart", category: "デザート/ドリンク", calories: 120, protein: 15, fat: 0, carbs: 12, price: 178 },
   { id: "f-6", name: "プロテインドリンク（200ml）", chain: "FamilyMart", category: "デザート/ドリンク", calories: 100, protein: 15, fat: 0, carbs: 8, price: 210 },
+  { id: "f-7",  name: "グリルチキン 炭火やきとり風味", chain: "FamilyMart", category: "主菜/たんぱく源", calories: 112, protein: 18.2, fat: 1.4, carbs: 7, price: 238 },
+  { id: "f-8",  name: "塩おむすび",                 chain: "FamilyMart", category: "主食",            calories: 185, protein: 2.6, fat: 1.1, carbs: 41.4 },
 
   { id: "l-1", name: "サラダチキン", chain: "Lawson", category: "主菜/たんぱく源", calories: 110, protein: 24, fat: 1, carbs: 0, price: 238 },
   { id: "l-2", name: "ブランパン（2個）", chain: "Lawson", category: "主食", calories: 135, protein: 14, fat: 6, carbs: 13, price: 150 },
   { id: "l-3", name: "豆腐そうめん", chain: "Lawson", category: "主食", calories: 120, protein: 7, fat: 3, carbs: 15, price: 198 },
   { id: "l-4", name: "おにぎり（鮭）", chain: "Lawson", category: "主食", calories: 180, protein: 6, fat: 2, carbs: 36, price: 150 },
   { id: "l-5", name: "グリルサラダチキンバー", chain: "Lawson", category: "主菜/たんぱく源", calories: 90, protein: 15, fat: 1, carbs: 1, price: 170 },
+  { id: "l-6",  name: "塩にぎり（プレミアムおにぎり）", chain: "Lawson",     category: "主食",            calories: 207, protein: 3.5, fat: 1.1, carbs: 46.2, price: 149 },
 
   { id: "a-1", name: "納豆", chain: "Any", category: "主菜/たんぱく源", calories: 100, protein: 8, fat: 5, carbs: 6, price: 90 },
   { id: "a-2", name: "枝豆（塩ゆで）", chain: "Any", category: "サイド", calories: 110, protein: 10, fat: 4, carbs: 8, price: 150 },
@@ -56,6 +61,7 @@ const defaultItems: Item[] = [
   { id: "a-7", name: "サバ缶（水煮）", chain: "Any", category: "主菜/たんぱく源", calories: 190, protein: 22, fat: 11, carbs: 0, price: 220 },
   { id: "a-8", name: "プロテインバー", chain: "Any", category: "デザート/ドリンク", calories: 180, protein: 15, fat: 8, carbs: 15, price: 170 },
   { id: "a-9", name: "ミックスサラダ（ドレッシング別）", chain: "Any", category: "サイド", calories: 30, protein: 2, fat: 0.2, carbs: 5, price: 150 },
+  
 ];
 
 // ===== Utilities =====
